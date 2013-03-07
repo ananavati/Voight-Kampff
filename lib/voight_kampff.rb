@@ -1,5 +1,4 @@
 require 'voight_kampff/test'
-require 'voight_kampff/engine' if defined?(Rails)
 
 module VoightKampff
 
