@@ -69,7 +69,7 @@ module VoightKampff
       @@agents ||= []
       if @@agents.empty?
       
-        base_paths = [VoightKampff.root]
+        base_paths = []
         base_paths << Rails.root if defined? Rails
         rel_path = ['config', 'user_agents.yml']
         
